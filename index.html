@@ -2623,6 +2623,77 @@
       .out:focus {
         border-color: var(--ac);
       }
+      .tv,
+      .fp,
+      .bfi {
+        background: #141416;
+      }
+      .tv .pimg,
+      .fp .pimg,
+      .bfi .pimg,
+      .rc .pimg {
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .tv .pimg,
+      .fp .pimg,
+      .bfi .pimg {
+        filter: grayscale(0.55) contrast(1.1) brightness(0.72);
+      }
+      .tv::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background: linear-gradient(transparent 45%, rgba(0, 0, 0, 0.7));
+        pointer-events: none;
+      }
+      .tv:hover .pimg,
+      .fp:hover .pimg,
+      .bfi:hover .pimg {
+        transform: scale(1.05);
+      }
+      @media (min-width: 900px) {
+        #do .g2 > div:first-child {
+          position: sticky;
+          top: 6rem;
+        }
+      }
+      #do .g2 {
+        align-items: stretch;
+      }
+      #do .g2 > div:first-child {
+        display: flex;
+        flex-direction: column;
+        position: static;
+      }
+      .abx {
+        flex: 1;
+        min-height: 380px;
+        aspect-ratio: auto;
+        margin-top: 2rem;
+        max-width: none;
+        background: linear-gradient(135deg, #2b0e0e, #141416 65%);
+      }
+      .abt {
+        position: absolute;
+        z-index: 2;
+        left: 1.4rem;
+        bottom: 1.3rem;
+        font: 400 clamp(2rem, 5vw, 3.6rem)/1 var(--hd);
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7);
+      }
+      .abx::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.75));
+        pointer-events: none;
+      }
     </style>
     <meta name="theme-color" content="#0B0B0D" />
     <meta property="og:title" content="Atworks | Turning people into brands" />
@@ -2972,6 +3043,22 @@
               <h2 class="st hd" id="h-do" style="margin-bottom: 0">
                 So, what exactly <span class="ac">do we do?</span>
               </h2>
+              <div class="fp abx">
+                <img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
+                <div class="art lx lx1"></div>
+                <span class="abt"
+                  >Turning People<br /><span class="ac"
+                    >Into Brands.</span
+                  ></span
+                >
+              </div>
             </div>
             <div class="rv stack">
               <p class="lead">People come to us with all kinds of ideas.</p>
@@ -3069,7 +3156,15 @@
             </div>
             <div class="tp" role="tabpanel" id="tp0" aria-labelledby="tb0">
               <div class="tv">
-                <span class="tw" aria-hidden="true">Content</span>
+                <span class="tw" aria-hidden="true">Content</span
+                ><img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
                 <div class="art lx lx1"></div>
               </div>
               <div>
@@ -3102,7 +3197,15 @@
               hidden
             >
               <div class="tv">
-                <span class="tw" aria-hidden="true">Strategy</span>
+                <span class="tw" aria-hidden="true">Strategy</span
+                ><img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
                 <div class="art lx lx2"></div>
               </div>
               <div>
@@ -3138,7 +3241,15 @@
               hidden
             >
               <div class="tv">
-                <span class="tw" aria-hidden="true">Positioning</span>
+                <span class="tw" aria-hidden="true">Positioning</span
+                ><img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
                 <div class="art lx lx3"></div>
               </div>
               <div>
@@ -3232,7 +3343,17 @@
           </div>
           <div class="sb">
             <article class="fm rv">
-              <div class="fp"><div class="art lx lx2"></div></div>
+              <div class="fp">
+                <img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
+                <div class="art lx lx2"></div>
+              </div>
               <h3>First, we listen.</h3>
               <p>
                 We want to understand what you're building, what matters to you,
@@ -3244,7 +3365,17 @@
               </p>
             </article>
             <article class="fm rv">
-              <div class="fp"><div class="art lx lx3"></div></div>
+              <div class="fp">
+                <img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
+                <div class="art lx lx3"></div>
+              </div>
               <h3>Then, we find a direction.</h3>
               <p>
                 We look at the ideas, explore a few possibilities, and work out
@@ -3257,7 +3388,17 @@
               </p>
             </article>
             <article class="fm rv">
-              <div class="fp"><div class="art lx lx4"></div></div>
+              <div class="fp">
+                <img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.remove()"
+                />
+                <div class="art lx lx4"></div>
+              </div>
               <h3>Then comes the making.</h3>
               <p>We write, plan, shoot, edit, and get everything ready.</p>
               <p>
@@ -3326,7 +3467,15 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><div class="art lx lx1"></div>
+            ><img
+              class="pimg"
+              src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=900&q=70"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              onerror="this.remove()"
+            />
+            <div class="art lx lx1"></div>
             <small>From our Instagram</small>
             <h3>Why Aesthetics Matter in Instagram Growth</h3>
             <p class="cd">
@@ -3341,7 +3490,15 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><div class="art lx lx2"></div>
+            ><img
+              class="pimg"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=70"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              onerror="this.remove()"
+            />
+            <div class="art lx lx2"></div>
             <small>From our Instagram</small>
             <h3>What Is Attention?</h3>
             <p class="cd">
@@ -3356,7 +3513,15 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><div class="art lx lx3"></div>
+            ><img
+              class="pimg"
+              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=70"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              onerror="this.remove()"
+            />
+            <div class="art lx lx3"></div>
             <small>From our Instagram</small>
             <h3>What Makes Content Look Professional?</h3>
             <p class="cd">
@@ -3371,7 +3536,15 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><div class="art lx lx4"></div>
+            ><img
+              class="pimg"
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=70"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              onerror="this.remove()"
+            />
+            <div class="art lx lx4"></div>
             <small>From our Instagram</small>
             <h3>Why Personal Branding Is Important</h3>
             <p class="cd">
@@ -3385,7 +3558,15 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><div class="art lx lx1"></div>
+            ><img
+              class="pimg"
+              src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=70"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              onerror="this.remove()"
+            />
+            <div class="art lx lx1"></div>
             <small>From our Instagram</small>
             <h3>Three Mistakes to Avoid</h3>
             <p class="cd">
@@ -3425,7 +3606,6 @@
                   class="pimg"
                   src="https://images.unsplash.com/photo-1497015289639-54688650d173?auto=format&fit=crop&w=900&q=70"
                   alt=""
-                  loading="lazy"
                   decoding="async"
                   onerror="this.remove()"
                 />
@@ -3439,7 +3619,6 @@
                   class="pimg"
                   src="https://images.unsplash.com/photo-1781127445118-8140677fdea1?auto=format&fit=crop&w=900&q=70"
                   alt=""
-                  loading="lazy"
                   decoding="async"
                   onerror="this.remove()"
                 />
@@ -3448,7 +3627,16 @@
               <figcaption>We change the camera angle.</figcaption>
             </figure>
             <figure class="bf">
-              <div class="bfi"><div class="art lx lx3"></div></div>
+              <div class="bfi">
+                <img
+                  class="pimg"
+                  src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=900&q=70"
+                  alt=""
+                  decoding="async"
+                  onerror="this.remove()"
+                />
+                <div class="art lx lx3"></div>
+              </div>
               <figcaption>
                 An idea that sounded perfect during planning doesn't quite work
                 once we start shooting.
@@ -3782,8 +3970,7 @@
             >&copy; <span id="yr">2026</span> Atworks. All rights
             reserved.</span
           ><span
-            >A personalised concept by Vbrandgrow. Photos: Cemrecan Yurtman and
-            Sam McGhee on Unsplash.</span
+            >A personalised concept by Vbrandgrow. Photos from Unsplash.</span
           >
         </div>
       </div>
@@ -4114,6 +4301,9 @@
             { passive: true },
           );
           addEventListener("resize", layout);
+          addEventListener("load", layout);
+          if (document.fonts && document.fonts.ready)
+            document.fonts.ready.then(layout);
           layout();
         })();
         // what we do tabs
