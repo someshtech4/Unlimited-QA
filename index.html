@@ -2551,6 +2551,32 @@
           transform-origin: 0 50%;
         }
       }
+
+      .hb .pimg {
+        opacity: 0.55;
+        object-position: center 35%;
+      }
+      .tv {
+        container-type: inline-size;
+      }
+      .tw {
+        position: absolute;
+        z-index: 2;
+        left: 1rem;
+        bottom: 0.4rem;
+        max-width: calc(100% - 2rem);
+        white-space: nowrap;
+        overflow: hidden;
+        font: 400 clamp(2.4rem, 6vw, 4.5rem)/1 var(--hd);
+        font-size: clamp(2.2rem, 12cqw, 5.5rem);
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+        pointer-events: none;
+      }
+      .rc .lx {
+        z-index: -2;
+      }
     </style>
     <meta name="theme-color" content="#0B0B0D" />
     <meta property="og:title" content="Atworks | Turning people into brands" />
@@ -2620,7 +2646,7 @@
         <div class="hb" id="hb" aria-hidden="true">
           <img
             class="pimg"
-            src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1920&q=70"
+            src="https://images.unsplash.com/photo-1781127445118-8140677fdea1?auto=format&fit=crop&w=1920&q=70"
             alt=""
             fetchpriority="high"
             decoding="async"
@@ -2644,9 +2670,8 @@
             <span class="ac">gets heard.</span>
           </h1>
           <p>
-            You've got something worth sharing. We help you find the right way
-            to tell it, through content, strategy and a little creative
-            thinking.
+            You know what you're good at. Getting the right people to notice is
+            a different job, and it's the one we do.
           </p>
           <div class="cta">
             <a href="#noise" class="bp">Start the story ↓</a
@@ -2825,17 +2850,15 @@
               <h2 class="st hd" id="h-noise">
                 There's a lot going on out there.
               </h2>
-              <p class="nl" data-at=".08">Another reel.</p>
-              <p class="nl" data-at=".2">Another trend.</p>
-              <p class="nl" data-at=".32">
-                Another post you forgot five seconds later.
-              </p>
+              <p class="nl" data-at=".08">You open the app for one minute.</p>
+              <p class="nl" data-at=".2">Forty posts go past.</p>
+              <p class="nl" data-at=".32">Now try to name three of them.</p>
               <p class="nl" data-at=".46">
-                It's easy to put content out there.
+                Putting content out is the easy part.
               </p>
               <p class="nl nfin" data-at=".64">
-                Getting someone to stop, pay attention and remember you? That's
-                the tricky part.
+                Getting someone to stop scrolling, and still remember you
+                tomorrow, is the hard part.
               </p>
             </div>
           </div>
@@ -2853,19 +2876,15 @@
             Four things we keep saying to anyone who'll listen.
           </h2>
           <p class="bl">
-            Posting more isn't the answer.
-            <span class="ac">Saying something is.</span>
+            More posts won't fix a post with
+            <span class="ac">nothing to say.</span>
+          </p>
+          <p class="bl">You get about a second to look worth listening to.</p>
+          <p class="bl">
+            Looking professional is a decision. It doesn't need a big budget.
           </p>
           <p class="bl">
-            How it looks decides whether people stay long enough to hear it.
-          </p>
-          <p class="bl">
-            Looking professional is a choice you make, not a budget you wait
-            for.
-          </p>
-          <p class="bl">
-            A personal brand isn't a logo. It's one clear idea people connect to
-            you.
+            A personal brand is one clear idea with your name on it.
           </p>
         </div>
       </section>
@@ -2880,9 +2899,9 @@
             </div>
             <div class="rv">
               <p class="lead">
-                At Atworks, we look beyond what to post next. We think about
-                what you want to say, who needs to hear it and how to make it
-                feel like you.
+                Most people come to us asking what to post next. We usually
+                start somewhere else. What do you actually want to say, who
+                needs to hear it, and what would make it sound like you?
               </p>
               <p class="lead" style="color: #fff; font-weight: 600; margin: 0">
                 Then we get to work.
@@ -2936,14 +2955,7 @@
             </div>
             <div class="tp" role="tabpanel" id="tp0" aria-labelledby="tb0">
               <div class="tv">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=900&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
+                <span class="tw" aria-hidden="true">Content</span>
                 <div class="art lx lx1"></div>
               </div>
               <div>
@@ -2955,9 +2967,9 @@
                 </p>
                 <h3 class="tq">What's worth saying this week?</h3>
                 <p class="lead">
-                  A good idea deserves more than a quick post. From the first
-                  thought to the final piece, we create content that feels right
-                  for your brand.
+                  A good idea deserves more than a quick post. We write it,
+                  shoot it and edit it so it looks and sounds like you, from the
+                  first rough thought to the final cut.
                 </p>
               </div>
             </div>
@@ -2969,14 +2981,7 @@
               hidden
             >
               <div class="tv">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
+                <span class="tw" aria-hidden="true">Strategy</span>
                 <div class="art lx lx2"></div>
               </div>
               <div>
@@ -2988,8 +2993,9 @@
                 </p>
                 <h3 class="tq">Why should anyone care?</h3>
                 <p class="lead">
-                  Before deciding what to say, let's figure out why it matters.
-                  We help bring some direction to your ideas.
+                  Before you decide what to say, it helps to know why it
+                  matters. We sit down with your ideas and give them a
+                  direction, so every post has a reason to exist.
                 </p>
               </div>
             </div>
@@ -3001,14 +3007,7 @@
               hidden
             >
               <div class="tv">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
+                <span class="tw" aria-hidden="true">Positioning</span>
                 <div class="art lx lx3"></div>
               </div>
               <div>
@@ -3020,8 +3019,8 @@
                 </p>
                 <h3 class="tq">Can you say it in one line?</h3>
                 <p class="lead">
-                  What do you want people to know you for? We help make that
-                  answer a little clearer.
+                  What do you want people to know you for? Most people have
+                  three answers. We help you pick one and say it clearly.
                 </p>
               </div>
             </div>
@@ -3033,9 +3032,10 @@
               hidden
             >
               <div class="tv">
-                <img
+                <span class="tw" aria-hidden="true">Video</span
+                ><img
                   class="pimg"
-                  src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70"
+                  src="https://images.unsplash.com/photo-1497015289639-54688650d173?auto=format&fit=crop&w=900&q=70"
                   alt=""
                   loading="lazy"
                   decoding="async"
@@ -3052,8 +3052,9 @@
                 </p>
                 <h3 class="tq">What does it look like on camera?</h3>
                 <p class="lead">
-                  Some stories are better shown than explained. We bring them to
-                  life, one frame at a time.
+                  Some stories land better when people can see them. We handle
+                  the camera, the light and the edit, so all you have to do is
+                  be yourself in front of it.
                 </p>
               </div>
             </div>
@@ -3067,22 +3068,12 @@
             Good work doesn't happen <span class="ac">by accident.</span>
           </h2>
           <p class="lead rv" style="max-width: 560px">
-            There's the idea. Then there's everything it takes to make that idea
-            work. It usually goes like this.
+            There's the idea. Then there's all the work it takes to make the
+            idea hold up. It usually goes in this order.
           </p>
           <div class="sb">
             <article class="fm rv">
-              <div class="fp">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=700&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
-                <div class="art lx lx2"></div>
-              </div>
+              <div class="fp"><div class="art lx lx2"></div></div>
               <h3>Listen</h3>
               <p>
                 We start with you. What you've done, what you care about, and
@@ -3090,39 +3081,20 @@
               </p>
             </article>
             <article class="fm rv">
-              <div class="fp">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
-                <div class="art lx lx3"></div>
-              </div>
+              <div class="fp"><div class="art lx lx3"></div></div>
               <h3>Shape</h3>
               <p>
-                Then we find the angle. The one line, the look and the tone that
-                makes it sound like you and nobody else.
+                Then we find the angle. A line and a look that sound like you
+                and nobody else.
               </p>
             </article>
             <article class="fm rv">
-              <div class="fp">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=700&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
-                <div class="art lx lx4"></div>
-              </div>
+              <div class="fp"><div class="art lx lx4"></div></div>
               <h3>Show</h3>
               <p>
-                Then we write it, shoot it, edit it and put it out. After that,
-                we watch what people actually respond to.
+                Then we write it, shoot it, cut it and post it. After that we
+                watch what people actually respond to, which isn't always what
+                we expected.
               </p>
             </article>
           </div>
@@ -3171,14 +3143,8 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="pimg"
-              src="https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?auto=format&fit=crop&w=700&q=70"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              onerror="this.remove()"
-            /><small>From our Instagram</small>
+            ><div class="art lx lx1"></div>
+            <small>From our Instagram</small>
             <h3>Why aesthetics matter in Instagram growth</h3>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
@@ -3188,14 +3154,8 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="pimg"
-              src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=700&q=70"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              onerror="this.remove()"
-            /><small>From our Instagram</small>
+            ><div class="art lx lx2"></div>
+            <small>From our Instagram</small>
             <h3>What is attention?</h3>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
@@ -3205,14 +3165,8 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="pimg"
-              src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=700&q=70"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              onerror="this.remove()"
-            /><small>From our Instagram</small>
+            ><div class="art lx lx3"></div>
+            <small>From our Instagram</small>
             <h3>What makes content look professional?</h3>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
@@ -3222,14 +3176,8 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="pimg"
-              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=70"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              onerror="this.remove()"
-            /><small>From our Instagram</small>
+            ><div class="art lx lx4"></div>
+            <small>From our Instagram</small>
             <h3>Why personal branding is important</h3>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
@@ -3239,14 +3187,8 @@
             href="https://instagram.com/atworks__"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="pimg"
-              src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=700&q=70"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              onerror="this.remove()"
-            /><small>From our Instagram</small>
+            ><div class="art lx lx1"></div>
+            <small>From our Instagram</small>
             <h3>3 mistakes to avoid</h3>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
@@ -3255,12 +3197,12 @@
         </div>
         <div class="wrap">
           <p class="mu" style="margin-top: 1.4rem; max-width: 560px">
-            Client projects will sit here as they're approved. Until then, this
+            Client projects will go here once they're approved. Until then, this
             is what we've been saying on our feed.
             <a
               href="#story"
               style="color: var(--tx); text-decoration: underline"
-              >Want to be next?</a
+              >Want yours to be the first?</a
             >
           </p>
         </div>
@@ -3280,7 +3222,7 @@
               <div class="bfi">
                 <img
                   class="pimg"
-                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=70"
+                  src="https://images.unsplash.com/photo-1497015289639-54688650d173?auto=format&fit=crop&w=900&q=70"
                   alt=""
                   loading="lazy"
                   decoding="async"
@@ -3294,7 +3236,7 @@
               <div class="bfi">
                 <img
                   class="pimg"
-                  src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=900&q=70"
+                  src="https://images.unsplash.com/photo-1781127445118-8140677fdea1?auto=format&fit=crop&w=900&q=70"
                   alt=""
                   loading="lazy"
                   decoding="async"
@@ -3305,17 +3247,7 @@
               <figcaption>The ideas that change halfway through.</figcaption>
             </figure>
             <figure class="bf">
-              <div class="bfi">
-                <img
-                  class="pimg"
-                  src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=900&q=70"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  onerror="this.remove()"
-                />
-                <div class="art lx lx3"></div>
-              </div>
+              <div class="bfi"><div class="art lx lx3"></div></div>
               <figcaption>
                 The little details nobody notices, until they do.
               </figcaption>
@@ -3342,9 +3274,9 @@
               Enough about us.<br /><span class="ac">What's your story?</span>
             </h2>
             <p class="mu rv">
-              Working on something? Still figuring it out? Tell us a little
-              about it. We'd love to hear what you have in mind. Three quick
-              questions, about a minute.
+              Got a project? Got half an idea? Either is a fine place to start.
+              Answer three quick questions and we'll turn them into a message
+              you can send us.
             </p>
           </div>
           <div class="bc" id="bc">
@@ -3393,7 +3325,7 @@
                     ><input
                       type="radio"
                       name="p"
-                      value="still figuring it out"
+                      value="something I'm still figuring out"
                     /><span>Still figuring it out</span></label
                   >
                 </div>
@@ -3447,7 +3379,7 @@
                   id="ch"
                   rows="3"
                   maxlength="400"
-                  placeholder="For example: people watch, but nobody remembers us"
+                  placeholder="For example: we post every week and nothing sticks"
                 ></textarea>
                 <label class="fl" for="nm" style="margin-top: 1.2rem"
                   >Your name or Instagram handle (optional)</label
@@ -3470,14 +3402,14 @@
                   <div class="top"></div>
                   <div class="bd">TAKE 1</div>
                 </div>
-                <h3 class="pq" tabindex="-1">Your enquiry is ready</h3>
+                <h3 class="pq" tabindex="-1">Here's your message</h3>
                 <p class="mu" style="margin-bottom: 1rem">
                   Copy it or send it to us on Instagram. Nothing leaves this
-                  page until you do.
+                  page until you choose to send it.
                 </p>
                 <pre class="out" id="out"></pre>
                 <div class="nav2">
-                  <button class="bs" type="button" id="cp">Copy enquiry</button
+                  <button class="bs" type="button" id="cp">Copy message</button
                   ><a
                     class="bp"
                     id="dm"
@@ -3585,7 +3517,10 @@
           <span
             >&copy; <span id="yr">2026</span> Atworks. All rights
             reserved.</span
-          ><span>A personalised concept by Vbrandgrow</span>
+          ><span
+            >A personalised concept by Vbrandgrow. Photos: Cemrecan Yurtman and
+            Sam McGhee on Unsplash.</span
+          >
         </div>
       </div>
     </footer>
@@ -3673,8 +3608,8 @@
         </button>
         <h2 class="hd" id="t-careers">Careers</h2>
         <p>
-          We're always interested in people who love content, strategy and
-          storytelling. Roles we've recently posted:
+          If you like making content and working out why it works, we'd like to
+          hear from you. These are the roles we've posted recently:
         </p>
         <ul class="rl">
           <li>Editor</li>
@@ -4022,7 +3957,7 @@
               "",
               "I'm working on " + (p ? p.value : "something new") + ".",
               "I'd like help with " + (h ? h.value : "a few things") + ".",
-              "The biggest challenge right now is " + c + ".",
+              "Biggest challenge right now: " + c + ".",
             ];
             if (n) l.push("", "You can find me as " + n + ".");
             l.push("", "Would love to talk it through.");
@@ -4085,7 +4020,7 @@
               r.classList.remove("play");
               void r.offsetWidth;
               r.classList.add("play");
-              stat.textContent = "Your enquiry is ready";
+              stat.textContent = "Your message is ready";
             }
           });
           f.addEventListener("change", function () {
@@ -4105,13 +4040,13 @@
             function bad() {
               toast(
                 legacy(t)
-                  ? "Enquiry copied."
+                  ? "Message copied."
                   : "Could not copy. Select the text and copy it.",
               );
             }
             if (navigator.clipboard && window.isSecureContext) {
               navigator.clipboard.writeText(t).then(function () {
-                toast("Enquiry copied.");
+                toast("Message copied.");
               }, bad);
             } else bad();
           }
