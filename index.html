@@ -2577,6 +2577,52 @@
       .rc .lx {
         z-index: -2;
       }
+      .nl {
+        font-size: clamp(1.15rem, 2.4vw, 1.6rem);
+      }
+      .nl.sm {
+        font-size: clamp(0.95rem, 1.5vw, 1.08rem);
+        color: var(--tx2);
+      }
+      .bl .sub {
+        display: block;
+        margin-top: 0.9rem;
+        max-width: 42ch;
+        font:
+          400 1rem/1.55 Inter,
+          system-ui,
+          sans-serif;
+        letter-spacing: 0;
+        text-transform: none;
+        opacity: 0.75;
+      }
+      .rc .cd {
+        font-size: 0.85rem;
+        line-height: 1.45;
+        color: var(--tx2);
+      }
+      .stack p {
+        max-width: 62ch;
+      }
+      .stack .ac2 {
+        color: #fff;
+        font-weight: 600;
+      }
+      .fcta {
+        padding-bottom: 2.5rem;
+        margin-bottom: 2.5rem;
+        border-bottom: 1px solid var(--b1);
+      }
+      .fcta h2 {
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        margin-bottom: 0.4rem;
+      }
+      .out {
+        outline: none;
+      }
+      .out:focus {
+        border-color: var(--ac);
+      }
     </style>
     <meta name="theme-color" content="#0B0B0D" />
     <meta property="og:title" content="Atworks | Turning people into brands" />
@@ -2673,9 +2719,13 @@
             You know what you're good at. Getting the right people to notice is
             a different job, and it's the one we do.
           </p>
+          <p>
+            At ATWORKS, we help people and businesses build brands through
+            strategy, content, and video. We find what makes you worth listening
+            to and help you share it with the right people.
+          </p>
           <div class="cta">
-            <a href="#noise" class="bp">Start the story ↓</a
-            ><a href="#do" class="bs">What we do</a>
+            <a href="#story" class="bp">Let's Talk About Your Story</a>
           </div>
         </div>
         <span class="cue" aria-hidden="true">Scroll</span>
@@ -2850,15 +2900,24 @@
               <h2 class="st hd" id="h-noise">
                 There's a lot going on out there.
               </h2>
-              <p class="nl" data-at=".08">You open the app for one minute.</p>
-              <p class="nl" data-at=".2">Forty posts go past.</p>
-              <p class="nl" data-at=".32">Now try to name three of them.</p>
-              <p class="nl" data-at=".46">
-                Putting content out is the easy part.
+              <p class="nl" data-at=".06">
+                You open Instagram for a minute. Forty posts go past.
               </p>
-              <p class="nl nfin" data-at=".64">
-                Getting someone to stop scrolling, and still remember you
-                tomorrow, is the hard part.
+              <p class="nl sm" data-at=".17">
+                Someone's sharing advice, someone's announcing something, and
+                another person is following a trend you've already seen five
+                times today.
+              </p>
+              <p class="nl" data-at=".3">
+                Close the app. Now try remembering three of those posts.
+              </p>
+              <p class="nl sm" data-at=".44">
+                That's the hard part about creating content. Almost anyone can
+                put something online. Getting someone to stop, pay attention,
+                and remember you tomorrow takes more thought.
+              </p>
+              <p class="nl nfin" data-at=".66">
+                And posting more often isn't always the answer.
               </p>
             </div>
           </div>
@@ -2873,42 +2932,97 @@
             id="h-bel"
             style="margin: 0 0 1rem; color: var(--tx)"
           >
-            Four things we keep saying to anyone who'll listen.
+            A few things we believe.
           </h2>
           <p class="bl">
             More posts won't fix a post with
-            <span class="ac">nothing to say.</span>
+            <span class="ac">nothing to say.</span
+            ><span class="sub"
+              >Sometimes one good idea does more than a week's worth of
+              content.</span
+            >
           </p>
-          <p class="bl">You get about a second to look worth listening to.</p>
           <p class="bl">
-            Looking professional is a decision. It doesn't need a big budget.
+            You don't need to be the loudest person in the room.<span
+              class="sub"
+              >You need to give the right people a reason to listen.</span
+            >
           </p>
           <p class="bl">
-            A personal brand is one clear idea with your name on it.
+            Looking professional doesn't have to cost a fortune.<span
+              class="sub"
+              >Good planning and attention to detail can make a bigger
+              difference than an expensive setup.</span
+            >
+          </p>
+          <p class="bl">
+            People should recognize your work before they see your name.<span
+              class="sub"
+              >That's when you know you're building something people
+              remember.</span
+            >
           </p>
         </div>
       </section>
 
       <section class="sec alt" id="do" aria-labelledby="h-do">
         <div class="wrap">
-          <div class="g2" style="align-items: end">
+          <div class="g2" style="align-items: start">
             <div class="rv">
               <h2 class="st hd" id="h-do" style="margin-bottom: 0">
-                That's where <span class="ac">we come in.</span>
+                So, what exactly <span class="ac">do we do?</span>
               </h2>
             </div>
-            <div class="rv">
+            <div class="rv stack">
+              <p class="lead">People come to us with all kinds of ideas.</p>
               <p class="lead">
-                Most people come to us asking what to post next. We usually
-                start somewhere else. What do you actually want to say, who
-                needs to hear it, and what would make it sound like you?
+                Some want to build a personal brand. Some need better content
+                for their business. Others have an idea for a video but aren't
+                sure where to start.
               </p>
-              <p class="lead" style="color: #fff; font-weight: 600; margin: 0">
-                Then we get to work.
+              <p class="lead">
+                Usually, the first conversation isn't about cameras or content
+                calendars.
+              </p>
+              <p class="lead">It's about you.</p>
+              <p class="lead">
+                What do you do? What makes your work different? Who do you want
+                to reach? And what do you wish more people understood about you?
+              </p>
+              <p class="lead">
+                Once we understand that, we can figure out what to create.
+              </p>
+              <p class="lead">
+                Sometimes that means finding a clearer message. Sometimes it's
+                planning a content series or getting behind the camera.
+              </p>
+              <p class="lead">
+                We like being involved in both the thinking and the making.
+              </p>
+              <p class="lead">
+                Because a good brand should still feel like the person or
+                business behind it.
+              </p>
+              <p class="lead ac2" style="margin: 0">
+                That's what we're here for.
               </p>
             </div>
           </div>
-          <div class="man rv"><i></i><b>Turning people into brands.</b></div>
+          <div class="man rv"><i></i><b>Turning People Into Brands.</b></div>
+        </div>
+      </section>
+
+      <section class="sec" id="services" aria-labelledby="h-svc">
+        <div class="wrap">
+          <div class="rv" style="max-width: 640px">
+            <h2 class="st hd" id="h-svc">
+              What can we <span class="ac">help you with?</span>
+            </h2>
+            <p class="lead">
+              You don't need to know exactly which service you need. Tell us
+              what you're working on, and we'll figure out what makes sense.
+            </p>
+          </div>
           <div class="tabs">
             <div class="tl" role="tablist" aria-label="What we do">
               <button
@@ -2965,11 +3079,18 @@
                 >
                   Content creation
                 </p>
-                <h3 class="tq">What's worth saying this week?</h3>
+                <h3 class="tq">
+                  Good ideas don't always turn into good posts on their own.
+                </h3>
                 <p class="lead">
-                  A good idea deserves more than a quick post. We write it,
-                  shoot it and edit it so it looks and sounds like you, from the
-                  first rough thought to the final cut.
+                  You might explain something brilliantly in a conversation,
+                  then struggle to turn the same thought into a 30-second video.
+                </p>
+                <p class="lead">We help with that.</p>
+                <p class="lead">
+                  From ideas and scripts to shooting and editing, we create
+                  content that sounds like you and gives people a reason to
+                  watch.
                 </p>
               </div>
             </div>
@@ -2991,11 +3112,21 @@
                 >
                   Brand strategy
                 </p>
-                <h3 class="tq">Why should anyone care?</h3>
+                <h3 class="tq">
+                  Before deciding what to post, let's talk about why you're
+                  posting it.
+                </h3>
                 <p class="lead">
-                  Before you decide what to say, it helps to know why it
-                  matters. We sit down with your ideas and give them a
-                  direction, so every post has a reason to exist.
+                  Who are you trying to reach? What do you want them to know?
+                  What should your content help you achieve?
+                </p>
+                <p class="lead">
+                  We work through those questions with you and build a direction
+                  that makes sense for your brand.
+                </p>
+                <p class="lead">
+                  So you're not staring at an empty content calendar every
+                  Monday.
                 </p>
               </div>
             </div>
@@ -3017,10 +3148,19 @@
                 >
                   Brand positioning
                 </p>
-                <h3 class="tq">Can you say it in one line?</h3>
+                <h3 class="tq">What do you want people to know you for?</h3>
                 <p class="lead">
-                  What do you want people to know you for? Most people have
-                  three answers. We help you pick one and say it clearly.
+                  It's a simple question until you try answering it in one
+                  sentence.
+                </p>
+                <p class="lead">
+                  You might be good at several things. But when someone
+                  discovers you for the first time, they need something clear to
+                  remember.
+                </p>
+                <p class="lead">
+                  We help you find that something and communicate it in a way
+                  that feels natural to you.
                 </p>
               </div>
             </div>
@@ -3050,11 +3190,23 @@
                 >
                   Video production
                 </p>
-                <h3 class="tq">What does it look like on camera?</h3>
+                <h3 class="tq">
+                  There's a lot that happens before someone says, “That's a
+                  wrap.”
+                </h3>
                 <p class="lead">
-                  Some stories land better when people can see them. We handle
-                  the camera, the light and the edit, so all you have to do is
-                  be yourself in front of it.
+                  Planning the shots. Getting the lighting right. Finding a
+                  comfortable way to speak on camera. And occasionally doing one
+                  more take because we know it could be better.
+                </p>
+                <p class="lead">
+                  We handle the production process, from planning and filming to
+                  editing the final video.
+                </p>
+                <p class="lead">
+                  Whether it's a personal branding video, a content series, or
+                  something for your business, we want it to look good without
+                  feeling staged.
                 </p>
               </div>
             </div>
@@ -3065,37 +3217,58 @@
       <section class="sec" id="how" aria-labelledby="h-how">
         <div class="wrap">
           <h2 class="st hd rv" id="h-how">
-            Good work doesn't happen <span class="ac">by accident.</span>
+            Good work usually starts with
+            <span class="ac">a good conversation.</span>
           </h2>
-          <p class="lead rv" style="max-width: 560px">
-            There's the idea. Then there's all the work it takes to make the
-            idea hold up. It usually goes in this order.
-          </p>
+          <div class="rv" style="max-width: 560px">
+            <p class="lead">
+              We don't expect you to arrive with a perfect brief.
+            </p>
+            <p class="lead">
+              Bring your ideas, references, questions, or even that one thought
+              you've been trying to explain for weeks.
+            </p>
+            <p class="lead">We'll start there.</p>
+          </div>
           <div class="sb">
             <article class="fm rv">
               <div class="fp"><div class="art lx lx2"></div></div>
-              <h3>Listen</h3>
+              <h3>First, we listen.</h3>
               <p>
-                We start with you. What you've done, what you care about, and
-                what you keep saying without noticing.
+                We want to understand what you're building, what matters to you,
+                and what's been getting in the way.
+              </p>
+              <p>
+                Sometimes the most useful thing you tell us is something you
+                didn't think was important.
               </p>
             </article>
             <article class="fm rv">
               <div class="fp"><div class="art lx lx3"></div></div>
-              <h3>Shape</h3>
+              <h3>Then, we find a direction.</h3>
               <p>
-                Then we find the angle. A line and a look that sound like you
-                and nobody else.
+                We look at the ideas, explore a few possibilities, and work out
+                what feels right for your brand.
+              </p>
+              <p>
+                Not every idea makes the cut, and that's okay. We'd rather
+                figure that out early than create something you're not happy
+                with.
               </p>
             </article>
             <article class="fm rv">
               <div class="fp"><div class="art lx lx4"></div></div>
-              <h3>Show</h3>
+              <h3>Then comes the making.</h3>
+              <p>We write, plan, shoot, edit, and get everything ready.</p>
               <p>
-                Then we write it, shoot it, cut it and post it. After that we
-                watch what people actually respond to, which isn't always what
-                we expected.
+                And once the content goes out, we pay attention to how people
+                respond.
               </p>
+              <p>
+                Sometimes things work exactly as expected. Sometimes they
+                surprise us.
+              </p>
+              <p>Either way, there's something to learn for the next one.</p>
             </article>
           </div>
         </div>
@@ -3111,11 +3284,21 @@
           <div class="wh">
             <div>
               <h2 class="st hd rv" id="h-work">
-                Less talk.<br /><span class="ac">More work.</span>
+                A few things <span class="ac">we've been making.</span>
               </h2>
-              <p class="lead" style="margin: 0">
-                A few things we've had our hands on.
-              </p>
+              <div style="max-width: 600px">
+                <p class="lead">
+                  We spend a lot of time thinking about content, what makes
+                  people notice it, and why some ideas stay with us longer than
+                  others.
+                </p>
+                <p class="lead">
+                  Sometimes those thoughts become content of their own.
+                </p>
+                <p class="lead">
+                  Here's a little of what we've shared on Instagram.
+                </p>
+              </div>
             </div>
             <div class="ars">
               <button
@@ -3145,7 +3328,11 @@
             rel="noopener noreferrer"
             ><div class="art lx lx1"></div>
             <small>From our Instagram</small>
-            <h3>Why aesthetics matter in Instagram growth</h3>
+            <h3>Why Aesthetics Matter in Instagram Growth</h3>
+            <p class="cd">
+              Does looking good actually help a page grow? We explore how
+              presentation influences the way people experience content.
+            </p>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
             ></a
@@ -3156,7 +3343,11 @@
             rel="noopener noreferrer"
             ><div class="art lx lx2"></div>
             <small>From our Instagram</small>
-            <h3>What is attention?</h3>
+            <h3>What Is Attention?</h3>
+            <p class="cd">
+              Getting noticed is one thing. Keeping someone interested is
+              another.
+            </p>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
             ></a
@@ -3167,7 +3358,11 @@
             rel="noopener noreferrer"
             ><div class="art lx lx3"></div>
             <small>From our Instagram</small>
-            <h3>What makes content look professional?</h3>
+            <h3>What Makes Content Look Professional?</h3>
+            <p class="cd">
+              It's not always about having an expensive camera. Sometimes the
+              smallest details make the biggest difference.
+            </p>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
             ></a
@@ -3178,7 +3373,10 @@
             rel="noopener noreferrer"
             ><div class="art lx lx4"></div>
             <small>From our Instagram</small>
-            <h3>Why personal branding is important</h3>
+            <h3>Why Personal Branding Is Important</h3>
+            <p class="cd">
+              Your work might be good. But do the right people know about it?
+            </p>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
             ></a
@@ -3189,22 +3387,25 @@
             rel="noopener noreferrer"
             ><div class="art lx lx1"></div>
             <small>From our Instagram</small>
-            <h3>3 mistakes to avoid</h3>
+            <h3>Three Mistakes to Avoid</h3>
+            <p class="cd">
+              A look at some common content mistakes and what could work better.
+            </p>
             <span class="mo" style="font-size: 0.75rem"
               >Read the post ↗</span
             ></a
           >
         </div>
         <div class="wrap">
-          <p class="mu" style="margin-top: 1.4rem; max-width: 560px">
-            Client projects will go here once they're approved. Until then, this
-            is what we've been saying on our feed.
+          <div class="cta" style="margin-top: 1.8rem">
             <a
-              href="#story"
-              style="color: var(--tx); text-decoration: underline"
-              >Want yours to be the first?</a
+              href="https://instagram.com/atworks__"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bp"
+              >Explore Our Work</a
             >
-          </p>
+          </div>
         </div>
       </section>
 
@@ -3213,8 +3414,8 @@
           <div class="btrack" id="btrack">
             <div class="bf bf0">
               <h2 class="hd" id="h-behind">
-                There's always more happening
-                <span class="ac">behind the camera.</span>
+                Not everything makes it into
+                <span class="ac">the final edit.</span>
               </h2>
               <p class="bhint" aria-hidden="true">Keep going</p>
             </div>
@@ -3230,7 +3431,7 @@
                 />
                 <div class="art lx lx1"></div>
               </div>
-              <figcaption>The conversations before a shoot.</figcaption>
+              <figcaption>Someone forgets a line.</figcaption>
             </figure>
             <figure class="bf">
               <div class="bfi">
@@ -3244,16 +3445,35 @@
                 />
                 <div class="art lx lx2"></div>
               </div>
-              <figcaption>The ideas that change halfway through.</figcaption>
+              <figcaption>We change the camera angle.</figcaption>
             </figure>
             <figure class="bf">
               <div class="bfi"><div class="art lx lx3"></div></div>
               <figcaption>
-                The little details nobody notices, until they do.
+                An idea that sounded perfect during planning doesn't quite work
+                once we start shooting.
               </figcaption>
             </figure>
             <div class="bf bfe">
-              <p class="hd">That's part of the work too.</p>
+              <p class="hd">
+                And sometimes the best moment happens when nobody's following
+                the script.
+              </p>
+              <p class="lead" style="margin-top: 1.2rem">
+                That's a normal day behind the camera. There's a lot of
+                thinking, trying, adjusting, and laughing that people never see
+                in the finished video. We thought you might like to see some of
+                it.
+              </p>
+              <div class="cta">
+                <a
+                  href="https://instagram.com/atworks__"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bp"
+                  >Take a Look Behind the Scenes</a
+                >
+              </div>
             </div>
           </div>
           <div class="bbar" aria-hidden="true"><i id="bbar"></i></div>
@@ -3271,13 +3491,21 @@
                 margin-bottom: 1.2rem;
               "
             >
-              Enough about us.<br /><span class="ac">What's your story?</span>
+              Enough about us.<br /><span class="ac"
+                >What are you working on?</span
+              >
             </h2>
             <p class="mu rv">
-              Got a project? Got half an idea? Either is a fine place to start.
-              Answer three quick questions and we'll turn them into a message
-              you can send us.
+              Maybe you've been thinking about building your personal brand.
+              Maybe your business needs better content. Or maybe you've got an
+              idea sitting in your notes app and haven't figured out what to do
+              with it yet.
             </p>
+            <p class="mu rv">
+              You don't need to have everything planned before reaching out.
+              Tell us a little about what you have in mind.
+            </p>
+            <p class="mu rv">Three quick questions. Nothing complicated.</p>
           </div>
           <div class="bc" id="bc">
             <div class="flash" id="flash" aria-hidden="true"></div>
@@ -3336,31 +3564,33 @@
               </fieldset>
               <fieldset class="pane" hidden>
                 <legend class="pq" tabindex="-1">
-                  What would you like help with?
+                  What do you need help with?
                 </legend>
                 <div class="og">
                   <label class="op"
                     ><input
                       type="radio"
                       name="h"
-                      value="content creation"
-                    /><span>Content creation</span></label
-                  ><label class="op"
-                    ><input type="radio" name="h" value="brand strategy" /><span
-                      >Brand strategy</span
-                    ></label
+                      value="creating content"
+                    /><span>Creating content</span></label
                   ><label class="op"
                     ><input
                       type="radio"
                       name="h"
-                      value="brand positioning"
-                    /><span>Brand positioning</span></label
+                      value="building a brand strategy"
+                    /><span>Building a brand strategy</span></label
                   ><label class="op"
                     ><input
                       type="radio"
                       name="h"
                       value="video production"
                     /><span>Video production</span></label
+                  ><label class="op"
+                    ><input
+                      type="radio"
+                      name="h"
+                      value="working out what I need"
+                    /><span>Not sure yet</span></label
                   >
                 </div>
                 <p class="err" role="alert"></p>
@@ -3371,16 +3601,35 @@
               </fieldset>
               <fieldset class="pane" hidden>
                 <legend class="pq" tabindex="-1">
-                  What's the biggest challenge right now?
+                  What's been the hardest part?
                 </legend>
-                <label class="fl" for="ch">In your own words</label
-                ><textarea
-                  class="in"
-                  id="ch"
-                  rows="3"
-                  maxlength="400"
-                  placeholder="For example: we post every week and nothing sticks"
-                ></textarea>
+                <div class="og">
+                  <label class="op"
+                    ><input
+                      type="radio"
+                      name="c"
+                      value="getting the right people to notice"
+                    /><span>Getting the right people to notice</span></label
+                  ><label class="op"
+                    ><input
+                      type="radio"
+                      name="c"
+                      value="knowing what content to create"
+                    /><span>Knowing what content to create</span></label
+                  ><label class="op"
+                    ><input
+                      type="radio"
+                      name="c"
+                      value="making my content look professional"
+                    /><span>Making my content look professional</span></label
+                  ><label class="op"
+                    ><input
+                      type="radio"
+                      name="c"
+                      value="figuring out where to start"
+                    /><span>Figuring out where to start</span></label
+                  >
+                </div>
                 <label class="fl" for="nm" style="margin-top: 1.2rem"
                   >Your name or Instagram handle (optional)</label
                 ><input
@@ -3394,7 +3643,7 @@
                 <p class="err" role="alert"></p>
                 <div class="nav2">
                   <button class="bs" type="button" data-back>Back</button
-                  ><button class="bp" type="submit">Write my enquiry</button>
+                  ><button class="bp" type="submit">Write my message</button>
                 </div>
               </fieldset>
               <div class="pane res" hidden>
@@ -3402,12 +3651,21 @@
                   <div class="top"></div>
                   <div class="bd">TAKE 1</div>
                 </div>
-                <h3 class="pq" tabindex="-1">Here's your message</h3>
+                <h3 class="pq" tabindex="-1">
+                  Sounds like we've got something to talk about.
+                </h3>
                 <p class="mu" style="margin-bottom: 1rem">
-                  Copy it or send it to us on Instagram. Nothing leaves this
-                  page until you choose to send it.
+                  We've put your answers into a message. You can edit it, add a
+                  few details, and send it over. Nothing leaves this page until
+                  you choose to send it.
                 </p>
-                <pre class="out" id="out"></pre>
+                <pre
+                  class="out"
+                  id="out"
+                  contenteditable="true"
+                  spellcheck="true"
+                  aria-label="Your message (editable)"
+                ></pre>
                 <div class="nav2">
                   <button class="bs" type="button" id="cp">Copy message</button
                   ><a
@@ -3416,7 +3674,7 @@
                     href="https://ig.me/m/atworks__"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >Send on Instagram ↗</a
+                    >Send My Message ↗</a
                   >
                 </div>
                 <p style="margin-top: 1rem">
@@ -3447,6 +3705,12 @@
 
     <footer class="ft">
       <div class="wrap">
+        <div class="fcta">
+          <h2 class="hd">
+            Have a story <span class="ac">worth telling?</span>
+          </h2>
+          <p class="lead" style="margin: 0">We'd love to hear it.</p>
+        </div>
         <div class="ftg">
           <div>
             <a class="brand" href="#hero" aria-label="Atworks home"
@@ -3459,8 +3723,8 @@
               /><b>ATWORKS</b></a
             >
             <p style="margin: 1rem 0 1.2rem; max-width: 320px">
-              Turning people into brands. Content, strategy and positioning for
-              people with a story to tell.
+              Turning People Into Brands.<br />Content Creation | Brand Strategy
+              | Brand Positioning | Video Production
             </p>
             <a
               class="ig"
@@ -3474,9 +3738,9 @@
             <h2 class="fh">Explore</h2>
             <ul class="ftl">
               <li><a href="#services">What we do</a></li>
-              <li><a href="#work">Selected work</a></li>
-              <li><a href="#bts">Behind the camera</a></li>
-              <li><a href="#builder">Tell us your idea</a></li>
+              <li><a href="#work">Our work</a></li>
+              <li><a href="#behind">Behind the camera</a></li>
+              <li><a href="#story">Your story</a></li>
             </ul>
           </nav>
           <nav aria-label="Company">
@@ -3606,19 +3870,26 @@
         <button class="x" type="button" data-close aria-label="Close">
           &times;
         </button>
-        <h2 class="hd" id="t-careers">Careers</h2>
+        <h2 class="hd" id="t-careers">Like making things? We should talk.</h2>
         <p>
-          If you like making content and working out why it works, we'd like to
-          hear from you. These are the roles we've posted recently:
+          Maybe you're the person who notices a bad cut in a video nobody else
+          thinks twice about. Maybe you love writing, finding good ideas, or
+          figuring out why some content works better than others.
         </p>
+        <p>
+          If you enjoy the creative process and care about the details, we'd
+          like to hear from you.
+        </p>
+        <p><b>Roles we're interested in:</b></p>
         <ul class="rl">
-          <li>Editor</li>
-          <li>Social Media Manager</li>
-          <li>Content Writer &amp; Strategist</li>
+          <li>Video Editors</li>
+          <li>Social Media Managers</li>
+          <li>Content Writers &amp; Strategists</li>
         </ul>
         <p class="mu">
-          Fluent in Tamil and English. Intern to full-time opportunities. Roles
-          change, so check Instagram for the latest.
+          Tamil and English communication skills are important for these roles.
+          We consider interns and full-time candidates depending on current
+          openings.
         </p>
         <p style="margin-top: 1.4rem">
           <a
@@ -3626,7 +3897,7 @@
             href="https://linktr.ee/atworksmedia.official"
             target="_blank"
             rel="noopener noreferrer"
-            >Apply via link in bio ↗</a
+            >Introduce Yourself ↗</a
           >
         </p>
       </div>
@@ -3948,16 +4219,16 @@
           function msg() {
             var p = f.querySelector("input[name=p]:checked"),
               h = f.querySelector("input[name=h]:checked"),
-              c = $("ch")
-                .value.trim()
-                .replace(/[.\s]+$/, ""),
+              c = f.querySelector("input[name=c]:checked"),
               n = $("nm").value.trim();
             var l = [
               "Hi Atworks,",
               "",
               "I'm working on " + (p ? p.value : "something new") + ".",
-              "I'd like help with " + (h ? h.value : "a few things") + ".",
-              "Biggest challenge right now: " + c + ".",
+              "I need help with " + (h ? h.value : "a few things") + ".",
+              "The hardest part so far is " +
+                (c ? c.value : "getting started") +
+                ".",
             ];
             if (n) l.push("", "You can find me as " + n + ".");
             l.push("", "Would love to talk it through.");
@@ -3985,15 +4256,8 @@
               ok;
             if (i === 0) ok = !!f.querySelector("input[name=p]:checked");
             else if (i === 1) ok = !!f.querySelector("input[name=h]:checked");
-            else {
-              ok = $("ch").value.trim().length >= 3;
-              $("ch").setAttribute("aria-invalid", String(!ok));
-            }
-            e.textContent = ok
-              ? ""
-              : i < 2
-                ? "Pick one to continue."
-                : "Add a line or two so we know where to start.";
+            else ok = !!f.querySelector("input[name=c]:checked");
+            e.textContent = ok ? "" : "Pick one to continue.";
             return ok;
           }
           function celebrate(i) {
@@ -4025,7 +4289,7 @@
           });
           f.addEventListener("change", function () {
             var e = panes[cur].querySelector(".err");
-            if (e && cur < 2) e.textContent = "";
+            if (e) e.textContent = "";
           });
           f.addEventListener("click", function (e) {
             if (e.target.closest("[data-back]") && cur > 0) {
@@ -4036,7 +4300,7 @@
             }
           });
           function copy() {
-            var t = msg();
+            var t = (out.textContent || "").trim() || msg();
             function bad() {
               toast(
                 legacy(t)
@@ -4054,7 +4318,6 @@
           $("dm").addEventListener("click", copy);
           $("rs").addEventListener("click", function () {
             f.reset();
-            $("ch").removeAttribute("aria-invalid");
             show(0, true);
             stat.textContent = "Step 1 of 3";
           });
